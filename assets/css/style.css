@@ -201,3 +201,77 @@ div.box{
 
 
 }
+
+@media screen and (max-width: 768px) {
+  body{
+    background-color: lemonchiffon;
+  }
+
+  span.links{
+    margin-right: 0;
+  }
+
+  span.title{
+    margin-left: 5%;
+    margin-top: -8px;
+  }
+
+  div.about{
+    float: none;
+    margin: 5%;
+    width: 80%;
+    height: 40%;
+    padding: 25px;
+  }
+
+  img.img{
+    float: none;
+    padding-bottom: 10px;
+    padding-left: 25%;
+    text-align: center;
+  }
+
+  div.contact{
+    float: none;
+    margin: 5%;
+    width: 73%;
+    height: 40%;
+
+  }
+
+  textarea{
+    height: 100px;
+  }
+
+  input.submit{
+    height: 8%;
+  }
+
+  div.portfolio{
+    float: none;
+    padding: 50px;
+    width: 73%;
+    height: 100%;
+    margin: 5%;
+  }
+
+  div.box{
+    height: 150px;
+    width: 40%;
+    display: inline-block;
+  }
+
+  div.connect{
+    float: none;
+    text-align: center;
+    width: 84%;
+    margin: 5%;
+  }
+
+  footer{
+    position: static;
+  }
+
+
+
+}
