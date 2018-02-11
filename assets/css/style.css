@@ -1,5 +1,6 @@
 body{
-  background-image: url('spiration light/spiration-light.png');
+  /*background-image: url('spiration light/spiration-light.png');*/
+  background-color: blue;
 }
 
 header{
@@ -19,6 +20,11 @@ input.submit{
   font-size: 15px;
   color: #ffffff;
   background-color: #4db6ac;
+}
+
+textarea{
+  width: 100%;
+  height: 30%;
 }
 
 a.links{
@@ -134,5 +140,64 @@ div.box{
   display: inline-block;
   height: 150px;
   width: 150px;
+
+}
+
+@media screen and (max-width: 980px) {
+  body{
+    background-color: salmon;
+  }
+  div.about{
+    margin-left: 5%;
+    width: 40%;
+    height: 40%;
+    padding: 25px;
+  }
+
+  img.img{
+    float: none;
+    padding-bottom: 10px;
+    padding-left: 25%;
+    text-align: center;
+  }
+
+  div.contact{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 35%;
+    height: 500px;
+
+  }
+
+  input.submit{
+    height: 8%;
+  }
+
+  div.portfolio{
+    padding: 50px;
+    width: 25%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 5%;
+  }
+
+  div.box{
+    height: 150px;
+    width: 150px;
+    display: block;
+  }
+
+  div.connect{
+    text-align: center;
+    width: 20%;
+    margin-left: 10%;
+  }
+
+  footer{
+    position: static;
+  }
+
+
 
 }
