@@ -1,0 +1,138 @@
+body{
+  background-image: url('spiration light/spiration-light.png');
+}
+
+header{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  height: 67px;
+  background-color: #ffffff;
+  border-bottom: solid 3px grey;
+}
+
+input{
+  width: 100%
+}
+
+input.submit{
+  width: 25%;
+  height: 15%;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #4db6ac;
+}
+
+a.links{
+  padding-right: 5px;
+  border-right: solid 1px black;
+  border-color: grey;
+}
+
+img.img{
+  float: left;
+  padding-right: 10px;
+}
+
+span.title{
+  font-family: 'Georgia', Times, serif;
+  float: left;
+  background: #4db6ac;
+  font-size: 25px;
+  color: white;
+  padding: 25px;
+  margin-left: 100px;
+  margin-top: -8px;
+}
+
+span.links{
+  float: right;
+  background: #ffffff;
+  font-family: 'Georgia', Times, serif;
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+  margin-right: 100px;
+  margin-top: 8px;
+}
+
+div.about{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  float: left;
+  overflow: scroll;
+  background-color: #ffffff;
+  border: solid 1px #dddddd;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 650px;
+  height: 300px;
+  padding: 25px;
+}
+
+h2{
+  font-weight: bold;
+  color: #4aaaa5;
+  font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 25px;
+  border-bottom: solid 1px #dddddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+div.connect{
+  background-color: #ffffff;
+  border: solid 1px #dddddd;
+  float: right;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 100px;
+  padding: 0 10px 30px 10px;
+}
+
+#connectHeader{
+  padding: 15px;
+}
+
+footer{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  clear: both;
+  height: 100px;
+  width: 100%;
+  border-top: solid 4px #4aaaa5;
+  background-color: #666666;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+div.contact{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 50px;
+  background-color: white;
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+div.portfolio{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 50px;
+  background-color: white;
+  float: left;
+  width: 450px;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+div.box{
+  text-align: center;
+  margin: 25px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+
+}
