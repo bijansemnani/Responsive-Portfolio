@@ -275,3 +275,56 @@ div.box{
 
 
 }
+
+@media screen and (max-width: 640px) {
+  body{
+    background-color: red;
+  }
+
+  span.links{
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    float: left;
+    text-align: center;
+  }
+
+  span.title{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    margin-top: -8px;
+  }
+
+  div.about{
+    margin: 5%;
+    width: 81%;
+    margin-top: 12%;
+  }
+
+  div.contact{
+    margin: 5%;
+    margin-top: 15%;
+
+  }
+
+  input.submit{
+    height: 8%;
+  }
+
+  div.portfolio{
+    margin: 5%;
+    margin-top: 15%;
+  }
+
+  div.box{
+    height: 300px;
+    width: 90%;
+    display: inline-block;
+  }
+
+  div.connect{
+    width: 87%;
+  }
+
+}
