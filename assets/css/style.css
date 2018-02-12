@@ -130,6 +130,11 @@ div.portfolio{
   height: 600px;
   margin-top: 30px;
   margin-left: 100px;
+  margin-bottom: 25px;
+}
+
+footer.portfolio{
+  position: static;
 }
 
 div.box{
@@ -149,6 +154,7 @@ div.box{
   }
   div.about{
     margin-left: 5%;
+    margin-bottom: 5%;
     width: 40%;
     height: 40%;
     padding: 25px;
